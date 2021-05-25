@@ -11,7 +11,7 @@ import static com.codeborne.selenide.Selenide.open;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class MoneyTransferTest {
-    int amountToAddForTest = 200;
+    int amountToAddForTest = -200;
 
     @Test
     void shouldCheckTransactionIsOkFromSecondToFirst() {
